@@ -170,4 +170,16 @@
     font-size: 14px;
     margin-bottom: 30px;
   }
+  footer {
+    padding-top: 132px;
+    background: linear-gradient(175deg, transparent 0% 10%, #EF2A82 10% 12%, #172755 12% 100%);
+  }
+  footer .container .footer-boxs {
+    overflow: hidden;
+    gap: 20px;
+  }
+  footer .container .footer-boxs .footer-box {
+    padding: 35px 35px 47px 35px;
+    background-color: #FFF;
+  }
 }/*# sourceMappingURL=media.css.map */

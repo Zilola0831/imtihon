@@ -187,4 +187,18 @@
             }         
         }
     } 
+    footer{
+        padding-top: 132px;
+        background: linear-gradient(175deg,transparent 0% 10% , #EF2A82 10% 12%, #172755 12% 100%);
+        .container{
+            .footer-boxs{
+                overflow: hidden;
+                gap: 20px;
+                .footer-box{
+                    padding: 35px 35px 47px 35px;
+                    background-color: #FFF;
+                }
+            }
+        }
+    }
 }

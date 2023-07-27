@@ -302,7 +302,7 @@ header .container .hero .hero-right .img3 {
 
 footer {
   background: linear-gradient(175deg, transparent 0% 30%, #EF2A82 30% 32%, #172755 32% 100%);
-  padding-top: 255px;
+  padding-top: 400px;
   text-align: center;
 }
 footer .container h2 {
@@ -334,11 +334,11 @@ footer .container .footer-boxs {
   align-items: center;
   justify-content: center;
   gap: 80px;
+  padding-bottom: 100px;
 }
 footer .container .footer-boxs .footer-box {
-  padding: 50px 70px 70px 70px;
+  padding: 50px 55px 70px 55px;
   border-radius: 30px;
-  opacity: 0.6999999881;
   background: #0F1F4B;
 }
 footer .container .footer-boxs .footer-box h3 {
@@ -359,4 +359,36 @@ footer .container .footer-boxs .footer-box .linear {
   width: 100%;
   height: 1px;
   background: #2A407C;
+  margin-bottom: 28px;
+}
+footer .container .footer-boxs .footer-box h4 {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+footer .container .footer-boxs .footer-box a {
+  padding: 10px 80px;
+  border-radius: 68px;
+  border: 1px solid #2A407C;
+  color: #fff;
+  text-decoration: none;
+}
+footer .container .footer-boxs .box1 {
+  background: #FFF;
+  opacity: none;
+  color: var(--text-main, #172755);
+}
+footer .container .footer-boxs .box1 h3 {
+  color: var(--text-main, #172755);
+}
+footer .container .footer-boxs .box1 h4 {
+  color: var(--text-main, #172755);
+}
+footer .container .footer-boxs .box1 a {
+  background-color: #EF2A82;
+  color: #fff;
+  border: none;
 }/*# sourceMappingURL=style.css.map */
