@@ -8,11 +8,12 @@ body{
     background: #F8F9FF;
 }
 header{
-    background: linear-gradient(170deg, #172755 0% 70% , #EF2A82 70% 72%, transparent 72% 100%);
+    background-image: url("./images/background1.png");
+    background: linear-gradient(174deg, #172755 0% 70% , #EF2A82 70% 72%, transparent 72% 100%);
     padding-top: 60px;
     padding-bottom: 350px;
     // background-image: url("./images/background1.png");
-    // background-size: cover;
+    
     .container{
         max-width: 1180px;
         margin: 0 auto;
@@ -310,8 +311,9 @@ header{
     }
 }
 footer{
-    background: linear-gradient(175deg,transparent 0% 30% , #EF2A82 30% 32%, #172755 32% 100%);
+    background: linear-gradient(175deg,transparent 0% 20% , #EF2A82 20% 22%, #172755 22% 100%);
     padding-top: 400px;
+    padding-bottom: 103px;
     text-align: center;
     .container{
         h2{
@@ -338,6 +340,7 @@ footer{
             line-height: 150%; /* 27px */
         }
         .footer-boxs{
+            overflow: hidden;
             margin-top: 80px;
             display: flex;
             align-items: center;
@@ -402,6 +405,37 @@ footer{
             }
 
 
+        }
+        .linear1{
+            width: 100%;
+            height: 1px;
+            background: #2A407C;         
+        }
+        .footer-end{
+            flex-wrap: wrap;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 64px 0px 0px 0px;
+            ul{
+                list-style: none;
+                display: flex;
+                gap: 36px;
+                a{
+                    text-decoration: none;
+                    color: var(--text-secondary, #8794BA);
+                    font-family: Roboto;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                }
+            }
+            .footer-icons{
+                display: flex;
+                color: white;
+                gap: 40px;
+            }
         }
     }
 }

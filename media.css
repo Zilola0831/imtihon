@@ -182,4 +182,7 @@
     padding: 35px 35px 47px 35px;
     background-color: #FFF;
   }
+  footer .container .footer-end ul {
+    display: none;
+  }
 }/*# sourceMappingURL=media.css.map */
